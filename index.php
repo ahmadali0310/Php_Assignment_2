@@ -225,7 +225,7 @@ $records = $statement->fetchAll(PDO::FETCH_ASSOC);
     </script>
 </head>
 
-<body>
+<body style="display: flex !important; flex-direction: column; justify-content: space-between; height: 100vh;">
 <!-- Navbar -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -369,6 +369,8 @@ $records = $statement->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
 </div>
+<?php require_once "./footer.php" ?>
+
 <!-- Javascript -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
