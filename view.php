@@ -27,7 +27,7 @@ $details = $statement->fetchAll(PDO::FETCH_ASSOC);
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Bootstrap Simple Data Table</title>
+    <title>Assignment No 2</title>
     <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Roboto"
